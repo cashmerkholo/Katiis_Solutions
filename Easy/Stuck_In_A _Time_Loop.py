@@ -15,6 +15,6 @@ Output
 Output the entire wizard’s spell by counting from
 to , giving one number and “Abracadabra” per line.
 """
-n=int(input())
-for i in range(n):
-    print("Abracadabra")
+n = int(input())
+for i in range(1, n + 1):
+    print(f"{i} Abracadabra")
